@@ -1,0 +1,32 @@
+{
+  "name": "deepak-modi",
+  "version": "0.0.12",
+  "peerDependencies": {
+    "@angular/common": "^17.0.0 || ^18.0.0",
+    "@angular/core": "^17.0.0 || ^18.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "typings": "index.d.ts",
+  "main": "fesm2022/deepak-modi.mjs",
+  "module": "esm2022/deepak-modi.mjs",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "esm2022": "./esm2022/deepak-modi.mjs",
+      "default": "./fesm2022/deepak-modi.mjs"
+    }
+  },
+  "sideEffects": false,
+
+  "files": [
+  "esm2022",
+  "fesm2022",
+  "index.d.ts",
+  "public-api.d.ts",
+  "package.json",
+  "lib"
+]
+
+}
